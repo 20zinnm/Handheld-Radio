@@ -1,0 +1,10 @@
+name: Handheld Radio
+version: 0.1
+main: hr.HandheldRadio
+commands:
+  shout:
+    description: Use a configurable item and this command to shout your message!
+    usage: /shout [Message]
+    permission: hr.shout
+    permission-message: It seems your lungs aren't powerful enough to shout! (Incorrect Permissions)
+    
